@@ -1,6 +1,5 @@
 var express = require("express");
 var router = express.Router();
-const path = require("path");
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
@@ -9,7 +8,7 @@ router.get("/", function (req, res, next) {
 
 router.post("/submit", (req, res) => {
   console.log(req.body);
-  res.render("user",{registerOrNot:"Sucessfull",userName:req.body.fname});
+  res.render("user",{registerOrNot:"Sucessfull",userName:req.body.userName});
 });
 
 module.exports = router;

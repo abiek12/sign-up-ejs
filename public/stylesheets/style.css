@@ -9,7 +9,7 @@ body {
 h1{
   font-size: 35px;
 }
-input[type=submit]{
+button{
   margin: 20px 125px;
   width: 100px;
   height: 30px;
