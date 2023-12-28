@@ -1,6 +1,18 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 160px;
+}
+h1{
+  font-size: 35px;
+}
+input[type=submit]{
+  margin: 20px 125px;
+  width: 100px;
+  height: 30px;
 }
 
 a {
