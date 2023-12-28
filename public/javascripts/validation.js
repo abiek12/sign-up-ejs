@@ -6,7 +6,6 @@ const confirmPasswordField = document.querySelector('input[name="re-password"]')
 
 
 form.addEventListener("submit", (event)=>{
-  console.log("hii");
   if (userName.value === "" || emailField.value === "" || passwordField.value === "" || confirmPasswordField.value === "") {
     event.preventDefault();
     alert("Please fill up the form completly");
