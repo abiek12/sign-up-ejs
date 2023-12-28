@@ -9,7 +9,7 @@ router.get("/", function (req, res, next) {
 
 router.post("/submit", (req, res) => {
   console.log(req.body);
-  res.render("user",{registerOrNot:"Sucessfull"});
+  res.render("user",{registerOrNot:"Sucessfull",userName:req.body.fname});
 });
 
 module.exports = router;
